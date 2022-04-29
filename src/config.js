@@ -1,0 +1,1 @@
+export const fullPath = 'http://localhost:9876'
