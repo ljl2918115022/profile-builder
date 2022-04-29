@@ -1,10 +1,10 @@
 <template>
   <div class="hello">
     Hello
-
-      <strong>We're sorry but antd-demo doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-
-
+    <form action="http://localhost:9876/file-upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="head" /><br />
+      <input type="submit" value="上传文件" />
+    </form>
   </div>
 </template>
 
